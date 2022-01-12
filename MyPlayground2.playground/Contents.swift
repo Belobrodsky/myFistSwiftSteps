@@ -44,3 +44,7 @@ myWallet+=incomeAfterOperation
 print(myWallet)
 myWallet+=incomeAfterOperation
 print(myWallet)
+
+var myBull=true
+if myBull {print("yes")}
+
