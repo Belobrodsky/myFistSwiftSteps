@@ -72,6 +72,12 @@ var meJustme = (Name:"Vladimir", Surname:"Belobrodsky", age: 35)
 
 print(meJustme.Name)
 
+//попытка обратного преобразования
+
+var (myName,mySurname,myAge) = meJustme
+
+print (mySurname)
+
 
 
 
