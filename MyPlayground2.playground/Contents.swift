@@ -78,6 +78,10 @@ var (myName,mySurname,myAge) = meJustme
 
 print (mySurname)
 
+/* последовательости и коллекции механихзмы для агрегации данных */
+
+
+
 
 
 
