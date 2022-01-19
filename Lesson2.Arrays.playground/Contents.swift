@@ -47,4 +47,42 @@ for item in a {
     print("\(item) \(type(of: item))")
 }
 
+var iteratItem = 0;
+
+while iteratItem<100
+{
+    print(iteratItem)
+    iteratItem+=10;
+    
+}
+
+iteratItem=0
+repeat
+{
+    print(iteratItem)
+    iteratItem+=20
+    
+    
+} while iteratItem<200
+
+let dragonCharacteristics: (color: String, weight: Float) = ("красный", 1.4)
+            switch dragonCharacteristics {
+case ("зеленый", 1.2): print("no")
+case ("красный", 1..<2): print("yes")
+case ("зеленый2", 1.3): print("no")
+default:print("no dragons")
+}
+            
+//swich with where
+print("=========")
+let dragonCharacteristics2: (color: String, weight: Float) = ("красный", 6) // 6- works, 5 and other odd - no
+            switch dragonCharacteristics {
+case ("зеленый", 1.2): print("no")
+            case ("красный", 1..<2) where dragonCharacteristics2.weight.truncatingRemainder(dividingBy: 2) == 0: print("yes");print(" i am here");
+case ("зеленый2", 1.3): print("no")
+default:print("no dragons")
+}
+ 
+var isAvailable = true
+guard isAvailable else {print("не правда"); return;} //вернемся к guard позже
 
