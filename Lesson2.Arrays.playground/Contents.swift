@@ -83,6 +83,8 @@ case ("зеленый2", 1.3): print("no")
 default:print("no dragons")
 }
  
-var isAvailable = true
-guard isAvailable else {print("не правда"); return;} //вернемся к guard позже
+//var isAvailable = true
+//guard isAvailable else {print("не правда"); return;} //вернемся к guard позже
+
+
 
